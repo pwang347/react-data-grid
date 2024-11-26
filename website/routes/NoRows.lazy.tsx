@@ -33,7 +33,7 @@ interface Row {
 
 const columns: readonly Column<Row>[] = [
   SelectColumn,
-  { key: 'id', name: 'ID' },
+  { key: 'id', name: '' },
   { key: 'title', name: 'Title' },
   { key: 'count', name: 'Count' }
 ];
